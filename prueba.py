@@ -14,3 +14,9 @@ df4.set_index('order_id', inplace = True)
 df5.set_index('product_id', inplace = True)
 
 
+total_orders = df1.index.nunique()
+print(f'numero total de pedidos realizados : {total_orders}')
+
+
+
+
